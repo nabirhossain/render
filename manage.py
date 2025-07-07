@@ -6,15 +6,7 @@ import sys
 
 def main():
     """Run administrative tasks."""
-<<<<<<< HEAD
-    os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'render.settings')
-=======
-<<<<<<< HEAD
-    os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'render_upload.settings')
-=======
-    os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'render.settings')
->>>>>>> 282f5eb (render upload)
->>>>>>> 3c31ee2 (first commit)
+
     try:
         from django.core.management import execute_from_command_line
     except ImportError as exc:
