@@ -31,7 +31,7 @@ SECRET_KEY = os.environ.get("SECRET_KEY") #For render upload
 DEBUG = os.environ.get("DEBUG", "False").lower() == "true"  #For render upload
 
 #ALLOWED_HOSTS = []
-ALLOWED_HOSTS = os.environ.get("ALLOWED_HOSTS").split(" ") #For render upload
+ALLOWED_HOSTS = os.environ.get("ALLOWED_HOSTS", "").split() #For render upload
 
 
 # Application definition
